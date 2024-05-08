@@ -11,7 +11,7 @@ import { experiences } from "../constance";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../util/motion";
 
-const ExperienceCard = ({ experience }) => {
+const ExperienceCard = ({ experience, language }) => {
   return (
     <VerticalTimelineElement
       contentStyle={{
@@ -33,20 +33,24 @@ const ExperienceCard = ({ experience }) => {
         <h3 className="text-white text-[24px] font-bold">{experience.title}</h3>
       </div>
 
-      <p className="mt-5 list-disc ml-5 space-y-2">{experience.points}</p>
+      <p className="mt-5 list-disc ml-5 space-y-2">
+        {language ? experience.pointsgr : experience.points}
+      </p>
     </VerticalTimelineElement>
   );
 };
 
-const Experience = () => {
+const Experience = ({ language }) => {
   return (
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} text-center`}>
-          My learning roadmap
+          {language ? "Το μονοπάτι εκμάθησης" : "My learning roadmap"}
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
-          Expanding my knowledge in these areas.
+          {language
+            ? "Επεκτείνοντας τις γνώσεις μου στους ακόλουθους τομεις."
+            : "Expanding my knowledge in these areas."}
         </h2>
       </motion.div>
 
@@ -56,6 +60,7 @@ const Experience = () => {
             <ExperienceCard
               key={`experience-${index}`}
               experience={experience}
+              language={language}
             />
           ))}
         </VerticalTimeline>

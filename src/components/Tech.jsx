@@ -5,12 +5,15 @@ import { styles } from "../styles";
 import { motion } from "framer-motion";
 import { textVariant } from "../util/motion";
 
-const Tech = () => {
+const Tech = ({ language }) => {
   return (
     <div className="flex flex-row flex-wrap justify-center gap-10">
       <motion.div variants={textVariant()}>
         <h2 className={`${styles.sectionHeadText} text-center `}>
-          Here are the skills I've acquired so far. <br />
+          {language
+            ? "Οι δεξιότητες που έχω αποκτήσει έως τώρα."
+            : "Here are the skills I've acquired so far."}{" "}
+          <br />
         </h2>
       </motion.div>
 

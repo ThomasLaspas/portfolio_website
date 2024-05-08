@@ -6,7 +6,7 @@ import { navLinks } from "../constance";
 import logowhite from "../assets/logowhite.png";
 
 import { logo, menu, close } from "../assets";
-const Navbar = ({ active, setActive }) => {
+const Navbar = ({ active, setActive, language, setlanguage }) => {
   const [toggle, setToggle] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
@@ -65,6 +65,12 @@ const Navbar = ({ active, setActive }) => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+          <button
+            className="text-[18px] font-medium cursor-pointer "
+            onClick={() => setlanguage((prev) => !prev)}
+          >
+            {language ? "GR" : "EN"}
+          </button>
         </ul>
 
         <div className="sm:hidden flex flex-1 justify-end items-center">
@@ -95,6 +101,12 @@ const Navbar = ({ active, setActive }) => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
+              <button
+                className="text-[18px] font-medium cursor-pointer "
+                onClick={() => setlanguage((prev) => !prev)}
+              >
+                {language ? "GR" : "EN"}
+              </button>
             </ul>
           </div>
         </div>

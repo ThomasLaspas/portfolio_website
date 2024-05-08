@@ -128,13 +128,16 @@ const experiences = [
 
     points:
       "Learning TypeScript enables me to write more reliable and scalable JavaScript code with better tooling support and increased readability.",
+    pointsgr:
+      "Τα μαθάματα της γλώσσας TypeScript μου επιτρέπουν να γράψω πιο αξιόπιστο και επεκτάσιμο κώδικα στη JavaScript, με καλύτερη υποστήριξη εργαλείων και αυξημένη αναγνωσιμότητα.",
   },
   {
     title: "NextJs",
 
     icon: nextjs,
     iconBg: "#FFFFFF",
-
+    pointsgr:
+      "Είμαι ενθουσιασμένος να εξερευνήσω το Next.js λόγω των αποτελεσματικών δυνατοτήτων αναπαραγωγής στον εξυπηρετητή και της ομαλής εμπειρίας ανάπτυξης.",
     points:
       "I'm keen to explore Next.js because of its efficient server-side rendering capabilities and streamlined development experience.",
   },
@@ -143,7 +146,8 @@ const experiences = [
 
     icon: django,
     iconBg: "#FFFFFF",
-
+    pointsgr:
+      "Ενδιαφέρομαι να εξερευνήσω το Django λόγω του αξιόπιστου πλαισίου για την κατασκευή εφαρμογών web, που προσφέρει χαρακτηριστικά όπως ενσωματωμένη ταυτοποίηση, ORM και επεκτασιμότητα.",
     points:
       "I'm interested in diving into Django due to its robust framework for building web applications, offering features like built-in authentication, ORM, and scalability.",
   },
@@ -152,7 +156,8 @@ const experiences = [
 
     icon: angular,
     iconBg: "#FFFFFF",
-
+    pointsgr:
+      "Με τραβάει το Angular για το πλήρες πλαίσιο εργαλείων που προσφέρει, παρέχοντας μια δομημένη προσέγγιση στη δημιουργία δυναμικών εφαρμογών web, προσφέροντας χαρακτηριστικά όπως δεσμευμένη διασύνδεση δεδομένων, ενσωμάτωση εξαρτήσεων και ένα ισχυρό CLI για αποδοτική ανάπτυξη.",
     points:
       "I'm drawn to Angular for its comprehensive framework that provides a structured approach to building dynamic web applications, offering features like two-way data binding, dependency injection, and a powerful CLI for streamlined development.",
   },
@@ -161,7 +166,8 @@ const experiences = [
 
     icon: golag,
     iconBg: "#FFFFFF",
-
+    pointsgr:
+      "Η έλξη μου προς τη Golang οφείλεται στην απλότητά της, στην αποτελεσματικότητά της και στην ενσωματωμένη υποστήριξη για ταυτόχρονη εκτέλεση, που την καθιστούν ιδανική για την ανάπτυξη εφαρμογών υψηλής απόδοσης και κλιμακωσιμότητας, ιδίως σε περιβάλλοντα σύννεφου.",
     points:
       "I'm attracted to Golang for its simplicity, efficiency, and built-in concurrency support, which make it ideal for developing scalable, high-performance applications, especially in cloud environments.",
   },
@@ -170,6 +176,9 @@ const experiences = [
 const projects = [
   {
     name: "Cybereats",
+    descriptiongr:
+      "Είναι μια διαδικτυακή πλατφόρμα που επιτρέπει στους χρήστες να εξερευνούν διάφορα εστιατόρια, να αναζητούν τα αγαπημένα τους φαγητά, να προχωρούν σε πληρωμή χρησιμοποιώντας κάρτες και να παρακολουθούν τις λεπτομέρειες της παραγγελίας τους. Οι χρήστες μπορούν επίσης να δημιουργούν τα δικά τους εστιατόρια, να προσθέτουν μενού και να διαχειρίζονται άλλες σχετικές εργασίες.",
+
     description:
       "It's a web-based platform enabling users to explore various restaurants, search for their preferred food items, proceed to checkout using cards, and track their order details. Users can also create their own restaurants, add menus, and manage other related tasks.",
     tags: [
@@ -197,6 +206,9 @@ const projects = [
   },
   {
     name: "Alphachat",
+    descriptiongr:
+      "Πρόκειται για μια web εφαρμογή που επιτρέπει στους χρήστες να αναζητούν άλλους χρήστες, να τους κάνουν φίλους και να δουν πόσοι χρήστες επισκέφτηκαν το προφίλ τους. Επίσης, μπορούν να δημιουργήσουν αναρτήσεις με κείμενο και, εάν ο χρήστης το επιθυμεί, να μεταφορτώσουν και εικόνα.",
+
     description:
       "Web application that enables users to search for search for others users make them friend and see how many users watched their profile. also can make a post with some text inside an if the user want can upload an image too",
     tags: [
@@ -224,6 +236,9 @@ const projects = [
   },
   {
     name: "Ferrari store routing project",
+    descriptiongr:
+      "Αυτό είναι το πρώτο μου έργο στο React, ένα κατάστημα αυτοκινήτων όπου οι χρήστες μπορούν να περιηγηθούν σε διάφορα αυτοκίνητα, να δουν λεπτομερείς πληροφορίες για κάθε αυτοκίνητο, να τα προσθέσουν στη λίστα επιθυμιών τους και να τα συγκρίνουν πλευρικά.",
+
     description:
       "This is my first React project, a car store where users can browse through various cars, view detailed information about each car, add them to their wishlist, and compare them side by side.",
     tags: [

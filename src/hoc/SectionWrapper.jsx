@@ -4,7 +4,7 @@ import { styles } from "../styles";
 import { staggerContainer } from "../util/motion";
 
 const StarWrapper = (Component, idName) =>
-  function HOC() {
+  function HOC({ language }) {
     return (
       <motion.section
         variants={staggerContainer()}
@@ -17,7 +17,7 @@ const StarWrapper = (Component, idName) =>
           &nbsp;
         </span>
 
-        <Component />
+        <Component language={language} />
       </motion.section>
     );
   };

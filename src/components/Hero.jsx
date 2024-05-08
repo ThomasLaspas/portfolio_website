@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
-const Hero = ({ active, setActive }) => {
+const Hero = ({ active, setActive, language }) => {
   const setnav = () => {
     setActive("About");
   };
@@ -19,17 +19,22 @@ const Hero = ({ active, setActive }) => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-[#915EFF]">Thomas</span>
+            {language ? "Γεια, είμαι ο " : "Hi, I'm "}
+            <span className="text-[#915EFF]">
+              {language ? "Θωμάς" : "Thomas"}
+            </span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            A liitle boys dream came alive
+            {language
+              ? "Το όνειρο ενός μικρού παιδιού γίνεται πραγματικότητα"
+              : "A liitle boys dream came alive"}
           </p>
         </div>
       </div>
 
       <ComputersCanvas />
 
-      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
+      <div className="absolute  xs:bottom-10  bottom-32 w-full flex justify-center items-center">
         <a href="#about" onClick={setnav}>
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.div
