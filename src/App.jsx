@@ -13,20 +13,26 @@ import {
 
 const App = () => {
   const [active, setActive] = useState("");
+  const [language, setlanguage] = useState(false);
   return (
     <BrowserRouter>
       <div className="relative z-0 bg-primary">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
-          <Navbar active={active} setActive={setActive} />
-          <Hero active={active} setActive={setActive} />
+          <Navbar
+            active={active}
+            setActive={setActive}
+            language={language}
+            setlanguage={setlanguage}
+          />
+          <Hero active={active} setActive={setActive} language={language} />
         </div>
-        <About />
-        <Tech />
-        <Experience />
-        <Works />
+        <About language={language} />
+        <Tech language={language} />
+        <Experience language={language} />
+        <Works language={language} />
 
         <div className="relative z-0">
-          <Contact />
+          <Contact language={language} />
         </div>
         <StarsCanvas />
       </div>
