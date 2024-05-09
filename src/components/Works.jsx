@@ -1,7 +1,7 @@
 import React from "react";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
-import { useMediaQuery } from "react-responsive";
+
 import { styles } from "../styles";
 import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
@@ -20,7 +20,7 @@ const ProjectCard = ({
   source_code_link2,
   language,
 }) => {
-  const isSmallDevice = useMediaQuery({ query: "(max-width: 640px)" });
+  const isSmallDevice = window.matchMedia("(max-width: 640px)").matches;
 
   if (isSmallDevice) {
     return (
@@ -145,7 +145,7 @@ const ProjectCard = ({
 };
 
 const Works = ({ language }) => {
-  const isSmallDevice = useMediaQuery({ query: "(max-width: 640px)" });
+  const isSmallDevice = window.matchMedia("(max-width: 640px)").matches;
 
   if (isSmallDevice) {
     return (
