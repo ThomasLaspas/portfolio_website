@@ -10,7 +10,7 @@ import {
   Works,
   StarsCanvas,
 } from "./components";
-import { Analytics } from "@vercel/analytics/react";
+
 const App = () => {
   const [active, setActive] = useState("");
   const [language, setlanguage] = useState(false);
