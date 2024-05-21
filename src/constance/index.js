@@ -31,6 +31,10 @@ import {
   orders,
   cars,
   web2,
+  nextJs,
+  supabase,
+  stripe,
+  chkackra,
 } from "../assets";
 
 export const navLinks = [
@@ -101,46 +105,27 @@ const technologies = [
     name: "Three JS",
     icon: threejs,
   },
-  {
-    name: "github",
-    icon: githubtr,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
+
   {
     name: "MySQL",
     icon: mysqltra,
   },
+
   {
-    name: "PostgreSQL",
-    icon: postgresqltra,
+    name: "supabase",
+    icon: supabase,
+  },
+  {
+    name: "Nextjs",
+    icon: nextJs,
+  },
+  {
+    name: "Typescript",
+    icon: typescript,
   },
 ];
 
 const experiences = [
-  {
-    title: "Typescript",
-
-    icon: typescript,
-    iconBg: "#383E56",
-
-    points:
-      "Learning TypeScript enables me to write more reliable and scalable JavaScript code with better tooling support and increased readability.",
-    pointsgr:
-      "Τα μαθάματα της γλώσσας TypeScript μου επιτρέπουν να γράψω πιο αξιόπιστο και επεκτάσιμο κώδικα στη JavaScript, με καλύτερη υποστήριξη εργαλείων και αυξημένη αναγνωσιμότητα.",
-  },
-  {
-    title: "NextJs",
-
-    icon: nextjs,
-    iconBg: "#FFFFFF",
-    pointsgr:
-      "Είμαι ενθουσιασμένος να εξερευνήσω το Next.js λόγω των αποτελεσματικών δυνατοτήτων αναπαραγωγής στον εξυπηρετητή και της ομαλής εμπειρίας ανάπτυξης.",
-    points:
-      "I'm keen to explore Next.js because of its efficient server-side rendering capabilities and streamlined development experience.",
-  },
   {
     title: "Django",
 
