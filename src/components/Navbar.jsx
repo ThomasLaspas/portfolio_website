@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { styles } from "../styles";
 import { navLinks } from "../constance";
 import logowhite from "../assets/logowhite.png";
+import Git from "../assets/github.png";
 
 import { logo, menu, close } from "../assets";
 const Navbar = ({ active, setActive, language, setlanguage }) => {
@@ -71,6 +72,13 @@ const Navbar = ({ active, setActive, language, setlanguage }) => {
           >
             {language ? "GR" : "EN"}
           </button>
+          <a
+            href="https://github.com/ThomasLaspas"
+            target="blank"
+            className="rounded-full w-[25px] h-[25px]"
+          >
+            <img src={Git} />
+          </a>
         </ul>
 
         <div className="sm:hidden flex flex-1 justify-end items-center">
