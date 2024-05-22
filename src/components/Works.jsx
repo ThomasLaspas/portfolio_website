@@ -34,24 +34,23 @@ const ProjectCard = ({
 
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover cursor-pointer">
             <div className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
-              <a href={source_code_link}>
-                <img
-                  src={github}
-                  alt="source code"
-                  className="w-1/2 h-1/2 object-contain"
-                />
-              </a>
+              <img
+                src={github}
+                alt="source code"
+                className="w-1/2 h-1/2 object-contain"
+              />
             </div>
           </div>
           <div className="absolute inset-0 flex justify-start m-3 card-img_hover">
-            <div className="bg-white w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
-              <a href={source_code_link2}>
-                <img
-                  src={image2}
-                  alt="source code"
-                  className="w-1/2 h-1/2 object-contain"
-                />
-              </a>
+            <div
+              className="bg-white w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              onClick={() => (window.location.href = `${source_code_link2}`)}
+            >
+              <img
+                src={image2}
+                alt="source code"
+                className="w-1/2 h-1/2 object-contain"
+              />
             </div>
           </div>
         </div>

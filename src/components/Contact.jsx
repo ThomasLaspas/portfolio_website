@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
-
+import Git from "../assets/github.png";
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
@@ -131,7 +131,6 @@ const Contact = ({ language }) => {
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
-
           <button
             type="submit"
             className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"
@@ -143,7 +142,7 @@ const Contact = ({ language }) => {
               : language
               ? "Αποστολή"
               : "Send"}
-          </button>
+          </button>{" "}
         </form>
       </motion.div>
 
