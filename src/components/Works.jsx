@@ -44,10 +44,7 @@ const ProjectCard = ({
             </div>
           </div>
           <div className="absolute inset-0 flex justify-start m-3 card-img_hover">
-            <div
-              onClick={() => window.open(source_code_link2, "_blank")}
-              className="bg-white w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-            >
+            <div className="bg-white w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
               <a href={source_code_link2}>
                 <img
                   src={image2}
