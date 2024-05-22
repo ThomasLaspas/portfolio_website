@@ -115,6 +115,13 @@ const Navbar = ({ active, setActive, language, setlanguage }) => {
               >
                 {language ? "GR" : "EN"}
               </button>
+              <a
+                href="https://github.com/ThomasLaspas"
+                target="blank"
+                className="rounded-full w-[25px] h-[25px]"
+              >
+                <img src={Git} />
+              </a>
             </ul>
           </div>
         </div>
