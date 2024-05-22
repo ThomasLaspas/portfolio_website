@@ -1,3 +1,5 @@
+import { delay } from "framer-motion";
+
 export const textVariant = (delay) => {
   return {
     hidden: {
@@ -14,6 +16,20 @@ export const textVariant = (delay) => {
       },
     },
   };
+};
+
+export const fadeInAnimation = {
+  initial: {
+    opacity: 0,
+    y: 100,
+  },
+  animate: (index) => ({
+    opacity: 1,
+    y: 0,
+    transition: {
+      delay: 0.07 * index,
+    },
+  }),
 };
 
 export const fadeIn = (direction, type, delay, duration) => {

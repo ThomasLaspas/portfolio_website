@@ -44,7 +44,9 @@ import stripe from "./Stripe-Emblem-removebg-preview.png";
 import chkackra from "./chakraui-removebg-preview.png";
 import supabase from "./supabaselogo.png";
 import nextJs from "./next-jslogo.svg";
+import Blog from "./company/blog.png";
 export {
+  Blog,
   nextJs,
   supabase,
   chkackra,
