@@ -12,22 +12,12 @@ import {
   tailwind,
   nodejs,
   mongodb,
-  git,
-  figma,
-  nextjs,
-  express,
-  postgress,
-  mysql,
   golag,
   angular,
   django,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   githubtr,
   mysqltra,
-  postgresqltra,
   alphachat,
   orders,
   cars,
@@ -36,6 +26,7 @@ import {
   supabase,
   stripe,
   chkackra,
+  ai,
 } from "../assets";
 
 export const navLinks = [
@@ -286,6 +277,41 @@ const projects = [
     source_code_link: "https://github.com/ThomasLaspas/NextJs_SAAS_Blog",
     source_code_link2:
       "https://next-js-saas-blog-thomaslaspas-projects.vercel.app/",
+  },
+  {
+    name: "Saas AI",
+    descriptiongr:
+      "Πρόκειται για μια πλήρη εφαρμογή γεννήτριας AI, η οποία μπορεί να συνομιλεί με ένα bot, να λύνει προβλήματα κώδικα, να δημιουργεί εικόνες και να παράγει ήχους. Το έργο χρησιμοποιεί το API της OpenAI για τις δυνατότητες AI και το Stripe για την επεξεργασία πληρωμών (αυτή τη στιγμή σε δοκιμαστική λειτουργία, χρησιμοποιήστε τον αριθμό κάρτας που ξεκινά με 42 για δοκιμές)",
+
+    description:
+      "This is a full-stack AI generator application that can chat with a bot, solve coding problems, generate images, and create sounds. The project utilizes the OpenAI API for its AI capabilities and Stripe for payment processing (currently in test mode; use the card number starting with 42 for testing).",
+    tags: [
+      {
+        name: "NextJs",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "Tailwind css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "stripe",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "OpenAI",
+        color: "green-text-gradient",
+      },
+    ],
+    image: ai,
+    image2: web2,
+    source_code_link: "https://github.com/ThomasLaspas/AI-saas",
+    source_code_link2: "https://ai-saas-six-dusky.vercel.app/",
   },
 ];
 

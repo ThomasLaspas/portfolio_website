@@ -45,7 +45,9 @@ import chkackra from "./chakraui-removebg-preview.png";
 import supabase from "./supabaselogo.png";
 import nextJs from "./next-jslogo.svg";
 import Blog from "./company/blog.png";
+import ai from "./AI.png";
 export {
+  ai,
   Blog,
   nextJs,
   supabase,
