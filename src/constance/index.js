@@ -158,7 +158,7 @@ const experiences = [
     pointsgr:
       "Η έλξη μου προς τη Golang οφείλεται στην απλότητά της, στην αποτελεσματικότητά της και στην ενσωματωμένη υποστήριξη για ταυτόχρονη εκτέλεση, που την καθιστούν ιδανική για την ανάπτυξη εφαρμογών υψηλής απόδοσης και κλιμακωσιμότητας, ιδίως σε περιβάλλοντα σύννεφου.",
     points:
-      "I'm attracted to Golang for its simplicity, efficiency, and built-in concurrency support, which make it ideal for developing scalable, high-performance applications, especially in cloud environments.",
+      "I'm attracted to Golang for its simplicity, efficiency, and built-in concurrency support, which make it ideal for developing scalable, high-performance applications, especially in cloud environments. ",
   },
 ];
 
@@ -199,7 +199,7 @@ const projects = [
       "Πρόκειται για μια web εφαρμογή που επιτρέπει στους χρήστες να αναζητούν άλλους χρήστες, να τους κάνουν φίλους και να δουν πόσοι χρήστες επισκέφτηκαν το προφίλ τους. Επίσης, μπορούν να δημιουργήσουν αναρτήσεις με κείμενο και, εάν ο χρήστης το επιθυμεί, να μεταφορτώσουν και εικόνα.",
 
     description:
-      "Web application that enables users to search for search for others users make them friend and see how many users watched their profile. also can make a post with some text inside an if the user want can upload an image too",
+      "Web application that enables users to search for search for others users make them friend and see how many users watched their profile. also can make a post with some text inside an if the user want can upload an image too.",
     tags: [
       {
         name: "react",
@@ -252,7 +252,7 @@ const projects = [
       "Σε αυτό το έργο, δημιούργησα μια εφαρμογή blog πλήρους στοίβας χρησιμοποιώντας Next.js, ενσωματώνοντας λειτουργικότητα συνδρομής μέσω του Stripe. Η πλατφόρμα διαθέτει έναν πίνακα διαχειριστή προσβάσιμο από έναν ειδικά επιλεγμένο διαχειριστή, που προσφέρει δυνατότητες για δημιουργία, επεξεργασία και προεπισκόπηση ιστολογίων, καθώς και πρόσβαση σε πληροφορίες χρηστών και συνδρομής. Οι χρήστες κατηγοριοποιούνται σε τυπικά και προχωρημένα επίπεδα, με διαφορετικά προνόμια. Οι τυπικοί χρήστες μπορούν να δουν τα τυπικά blogs, ενώ οι προχωρημένοι χρήστες έχουν πρόσβαση σε προχωρημένο περιεχόμενο",
 
     description:
-      "In this project, I developed a full-stack blog application using Next.js, incorporating subscription functionality via Stripe. The platform features an administrator panel accessible to a designated admin, offering capabilities to create, edit, and preview blogs, as well as access user and subscription information. Users are categorized into standard and premium tiers, each with distinct privileges. Standard users can view standard blogs, while premium users have access to premium content.",
+      "In this project, I developed a full-stack blog application using Next.js, incorporating subscription functionality via Stripe. The platform features an administrator panel accessible to a designated admin, offering capabilities to create, edit, and preview blogs, as well as access user and subscription information. Users are categorized into standard and premium tiers, each with distinct privileges. Standard users can view standard blogs, while premium users have access to premium content. ",
     tags: [
       {
         name: "NextJs",
