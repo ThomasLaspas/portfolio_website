@@ -138,7 +138,7 @@ const experiences = [
     pointsgr:
       "Ενδιαφέρομαι να εξερευνήσω το Django λόγω του αξιόπιστου πλαισίου για την κατασκευή εφαρμογών web, που προσφέρει χαρακτηριστικά όπως ενσωματωμένη ταυτοποίηση, ORM και επεκτασιμότητα.",
     points:
-      "I'm interested in diving into Django due to its robust framework for building web applications, offering features like built-in authentication, ORM, and scalability.",
+      "I'm interested in diving into Django due to its robust framework for building web applications, offering features like built-in authentication, ORM, and scalability. Click the image to see the web application",
   },
   {
     title: "Angular",
@@ -148,7 +148,7 @@ const experiences = [
     pointsgr:
       "Με τραβάει το Angular για το πλήρες πλαίσιο εργαλείων που προσφέρει, παρέχοντας μια δομημένη προσέγγιση στη δημιουργία δυναμικών εφαρμογών web, προσφέροντας χαρακτηριστικά όπως δεσμευμένη διασύνδεση δεδομένων, ενσωμάτωση εξαρτήσεων και ένα ισχυρό CLI για αποδοτική ανάπτυξη.",
     points:
-      "I'm drawn to Angular for its comprehensive framework that provides a structured approach to building dynamic web applications, offering features like two-way data binding, dependency injection, and a powerful CLI for streamlined development.",
+      "I'm drawn to Angular for its comprehensive framework that provides a structured approach to building dynamic web applications, offering features like two-way data binding, dependency injection, and a powerful CLI for streamlined development. Click the image to see the web application",
   },
   {
     title: "Golang",
@@ -158,7 +158,7 @@ const experiences = [
     pointsgr:
       "Η έλξη μου προς τη Golang οφείλεται στην απλότητά της, στην αποτελεσματικότητά της και στην ενσωματωμένη υποστήριξη για ταυτόχρονη εκτέλεση, που την καθιστούν ιδανική για την ανάπτυξη εφαρμογών υψηλής απόδοσης και κλιμακωσιμότητας, ιδίως σε περιβάλλοντα σύννεφου.",
     points:
-      "I'm attracted to Golang for its simplicity, efficiency, and built-in concurrency support, which make it ideal for developing scalable, high-performance applications, especially in cloud environments. ",
+      "I'm attracted to Golang for its simplicity, efficiency, and built-in concurrency support, which make it ideal for developing scalable, high-performance applications, especially in cloud environments.Click the image to see the web application ",
   },
 ];
 
