@@ -137,8 +137,8 @@ const Works = ({ language }) => {
         <div className="w-full flex">
           <div className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]">
             {language
-              ? "Τα παρακάτω έργα αναδεικνύουν τις δεξιότητές μου και την εμπειρία μου με πραγματικά παραδείγματα από τη δουλειά μου. Κάθε έργο περιγράφεται συνοπτικά και περιλαμβάνει συνδέσμους προς αποθετήρια κώδικα και ζωντανές επίδειξεις, αναδεικνύοντας την ικανότητά μου να λύνω πολύπλοκα προβλήματα, να χειρίζομαι επιδέξια διάφορες τεχνολογίες και να διαχειρίζομαι αποτελεσματικά έργα."
-              : "The projects below highlight my skills and experience with real-world examples of my work. Each project is succinctly described and includes links to code repositories and live demos, showcasing my ability to solve intricate problems, adeptly handle various technologies, and efficiently manage projects. Click the card to see the project"}
+              ? "Τα παρακάτω έργα αναδεικνύουν τις δεξιότητές μου και την εμπειρία μου με πραγματικά παραδείγματα από τη δουλειά μου. Κάθε έργο περιγράφεται συνοπτικά και περιλαμβάνει συνδέσμους προς αποθετήρια κώδικα και ζωντανές επίδειξεις, αναδεικνύοντας την ικανότητά μου να λύνω πολύπλοκα προβλήματα, να χειρίζομαι επιδέξια διάφορες τεχνολογίες και να διαχειρίζομαι αποτελεσματικά έργα. Καντε κλικ στις εικόνες για να δειτε την ιστοσελίδα"
+              : "The projects below highlight my skills and experience with real-world examples of my work. Each project is succinctly described and includes links to code repositories and live demos, showcasing my ability to solve intricate problems, adeptly handle various technologies, and efficiently manage projects."}
           </div>
         </div>
 

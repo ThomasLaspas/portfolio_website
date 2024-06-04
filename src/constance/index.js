@@ -169,7 +169,7 @@ const projects = [
       "Είναι μια διαδικτυακή πλατφόρμα που επιτρέπει στους χρήστες να εξερευνούν διάφορα εστιατόρια, να αναζητούν τα αγαπημένα τους φαγητά, να προχωρούν σε πληρωμή χρησιμοποιώντας κάρτες και να παρακολουθούν τις λεπτομέρειες της παραγγελίας τους. Οι χρήστες μπορούν επίσης να δημιουργούν τα δικά τους εστιατόρια, να προσθέτουν μενού και να διαχειρίζονται άλλες σχετικές εργασίες.",
 
     description:
-      "It's a web-based platform enabling users to explore various restaurants, search for their preferred food items, proceed to checkout using cards, and track their order details. Users can also create their own restaurants, add menus, and manage other related tasks.",
+      "It's a web-based platform enabling users to explore various restaurants, search for their preferred food items, proceed to checkout using cards, and track their order details. Users can also create their own restaurants, add menus, and manage other related tasks. Click the image to see the web application",
     tags: [
       {
         name: "react",
@@ -199,7 +199,7 @@ const projects = [
       "Πρόκειται για μια web εφαρμογή που επιτρέπει στους χρήστες να αναζητούν άλλους χρήστες, να τους κάνουν φίλους και να δουν πόσοι χρήστες επισκέφτηκαν το προφίλ τους. Επίσης, μπορούν να δημιουργήσουν αναρτήσεις με κείμενο και, εάν ο χρήστης το επιθυμεί, να μεταφορτώσουν και εικόνα.",
 
     description:
-      "Web application that enables users to search for search for others users make them friend and see how many users watched their profile. also can make a post with some text inside an if the user want can upload an image too.",
+      "Web application that enables users to search for search for others users make them friend and see how many users watched their profile. also can make a post with some text inside an if the user want can upload an image too. Click the image to see the web application",
     tags: [
       {
         name: "react",
@@ -229,7 +229,7 @@ const projects = [
       "Αυτό είναι το πρώτο μου έργο στο React, ένα κατάστημα αυτοκινήτων όπου οι χρήστες μπορούν να περιηγηθούν σε διάφορα αυτοκίνητα, να δουν λεπτομερείς πληροφορίες για κάθε αυτοκίνητο, να τα προσθέσουν στη λίστα επιθυμιών τους και να τα συγκρίνουν πλευρικά.",
 
     description:
-      "This is my first React project, a car store where users can browse through various cars, view detailed information about each car, add them to their wishlist, and compare them side by side.",
+      "This is my first React project, a car store where users can browse through various cars, view detailed information about each car, add them to their wishlist, and compare them side by side. Click the image to see the web application",
     tags: [
       {
         name: "react",
@@ -252,7 +252,7 @@ const projects = [
       "Σε αυτό το έργο, δημιούργησα μια εφαρμογή blog πλήρους στοίβας χρησιμοποιώντας Next.js, ενσωματώνοντας λειτουργικότητα συνδρομής μέσω του Stripe. Η πλατφόρμα διαθέτει έναν πίνακα διαχειριστή προσβάσιμο από έναν ειδικά επιλεγμένο διαχειριστή, που προσφέρει δυνατότητες για δημιουργία, επεξεργασία και προεπισκόπηση ιστολογίων, καθώς και πρόσβαση σε πληροφορίες χρηστών και συνδρομής. Οι χρήστες κατηγοριοποιούνται σε τυπικά και προχωρημένα επίπεδα, με διαφορετικά προνόμια. Οι τυπικοί χρήστες μπορούν να δουν τα τυπικά blogs, ενώ οι προχωρημένοι χρήστες έχουν πρόσβαση σε προχωρημένο περιεχόμενο",
 
     description:
-      "In this project, I developed a full-stack blog application using Next.js, incorporating subscription functionality via Stripe. The platform features an administrator panel accessible to a designated admin, offering capabilities to create, edit, and preview blogs, as well as access user and subscription information. Users are categorized into standard and premium tiers, each with distinct privileges. Standard users can view standard blogs, while premium users have access to premium content. ",
+      "In this project, I developed a full-stack blog application using Next.js, incorporating subscription functionality via Stripe. The platform features an administrator panel accessible to a designated admin, offering capabilities to create, edit, and preview blogs, as well as access user and subscription information. Users are categorized into standard and premium tiers, each with distinct privileges. Standard users can view standard blogs, while premium users have access to premium content. Click the image to see the web application",
     tags: [
       {
         name: "NextJs",
@@ -284,7 +284,7 @@ const projects = [
       "Πρόκειται για μια πλήρη εφαρμογή γεννήτριας AI, η οποία μπορεί να συνομιλεί με ένα bot, να λύνει προβλήματα κώδικα, να δημιουργεί εικόνες και να παράγει ήχους. Το έργο χρησιμοποιεί το API της OpenAI για τις δυνατότητες AI και το Stripe για την επεξεργασία πληρωμών (αυτή τη στιγμή σε δοκιμαστική λειτουργία, χρησιμοποιήστε τον αριθμό κάρτας που ξεκινά με 42 για δοκιμές)",
 
     description:
-      "This is a full-stack AI generator application that can chat with a bot, solve coding problems, generate images, and create sounds. The project utilizes the OpenAI API for its AI capabilities and Stripe for payment processing (currently in test mode; use the card number starting with 42 for testing).",
+      "This is a full-stack AI generator application that can chat with a bot, solve coding problems, generate images, and create sounds. The project utilizes the OpenAI API for its AI capabilities and Stripe for payment processing (currently in test mode; use the card number starting with 42 for testing). Click the image to see the web application",
     tags: [
       {
         name: "NextJs",
