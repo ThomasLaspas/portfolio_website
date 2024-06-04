@@ -24,11 +24,6 @@ const Hero = ({ active, setActive, language }) => {
               {language ? "Θωμάς" : "Thomas"}
             </span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            {language
-              ? "Το όνειρο ενός μικρού παιδιού γίνεται πραγματικότητα"
-              : "A liitle boys dream came alive"}
-          </p>
         </div>
       </div>
 
