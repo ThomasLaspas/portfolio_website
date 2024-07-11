@@ -31,7 +31,6 @@ import postgress from "./tech/postgress.png";
 import mysql from "./tech/mysql.png";
 import golag from "./tech/golang.png";
 import angular from "./tech/angular.png";
-import django from "./tech/django.png";
 import nextjs from "./tech/nextjs.png";
 import githubtr from "./tech/github-removebg-preview.png";
 import expresstrans from "./tech/expressjs-removebg-preview.png";
@@ -46,7 +45,15 @@ import supabase from "./supabaselogo.png";
 import nextJs from "./next-jslogo.svg";
 import Blog from "./company/blog.png";
 import ai from "./AI.png";
+import fastapi from "./tech/fastapi.jpeg";
+import python from "./tech/python.png";
+import flask from "./tech/flask.png";
+import django from "./tech/django.png";
 export {
+  django,
+  flask,
+  python,
+  fastapi,
   ai,
   Blog,
   nextJs,
@@ -62,7 +69,6 @@ export {
   expresstrans,
   nextjs,
   express,
-  django,
   angular,
   golag,
   mysql,

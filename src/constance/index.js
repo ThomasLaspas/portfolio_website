@@ -7,6 +7,9 @@ import {
   html,
   css,
   Blog,
+  python,
+  flask,
+  fastapi,
   reactjs,
   expresstrans,
   tailwind,
@@ -127,19 +130,25 @@ const technologies = [
     name: "Github",
     icon: githubtr,
   },
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "Django",
+    icon: django,
+  },
+  {
+    name: "Fastapi",
+    icon: fastapi,
+  },
+  {
+    name: "Flask",
+    icon: flask,
+  },
 ];
 
 const experiences = [
-  {
-    title: "Django",
-
-    icon: django,
-    iconBg: "#FFFFFF",
-    pointsgr:
-      "Ενδιαφέρομαι να εξερευνήσω το Django λόγω του αξιόπιστου πλαισίου για την κατασκευή εφαρμογών web, που προσφέρει χαρακτηριστικά όπως ενσωματωμένη ταυτοποίηση, ORM και επεκτασιμότητα.",
-    points:
-      "I'm interested in diving into Django due to its robust framework for building web applications, offering features like built-in authentication, ORM, and scalability. Click the image to see the web application",
-  },
   {
     title: "Angular",
 
